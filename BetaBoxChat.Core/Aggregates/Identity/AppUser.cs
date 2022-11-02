@@ -2,7 +2,7 @@
 
 namespace BetaBoxChat.Core.Aggregates.Identity
 {
-    public class User : IdentityUser<Guid>
+    public class AppUser : IdentityUser<Guid>
     {
     }
 }
